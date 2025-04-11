@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C.E. L'Espurna</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="logo">
+      <!-- Marcador de posición para el logo -->
+      <img src="images/logo-placeholder.png" alt="Logo de L'Espurna">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero o Sección de Inicio -->
+  <section id="inicio" class="hero">
+    <h1>Bienvenidos a C.E. L'Espurna</h1>
+    <p>Un espacio para disfrutar, aprender y crecer juntos.</p>
+    <button onclick="scrollToSection('contacto')">Contáctanos</button>
+  </section>
+
+  <!-- Sección Nosotros -->
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos un centro de esplai dedicado a niños, jóvenes y familias. Nuestro objetivo es ofrecer actividades educativas, recreativas y culturales.</p>
+  </section>
+
+  <!-- Sección Actividades -->
+  <section id="actividades">
+    <h2>Nuestras Actividades</h2>
+    <div class="actividad">
+      <h3>Colonias</h3>
+      <p>Disfruta de nuestras colonias durante el verano y otras épocas del año.</p>
+    </div>
+    <div class="actividad">
+      <h3>Fiestas y Eventos</h3>
+      <p>Organizamos fiestas temáticas y eventos especiales para toda la familia.</p>
+    </div>
+    <div class="actividad">
+      <h3>Actividades Semanales</h3>
+      <p>Participa cada semana en actividades educativas y recreativas.</p>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 C.E. L'Espurna. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

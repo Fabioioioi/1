@@ -1,0 +1,76 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #004d40;
+  color: white;
+}
+
+header .logo img {
+  max-height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #00796b url('images/hero-placeholder.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #004d40;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #00332e;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #004d40;
+  color: white;
+}
